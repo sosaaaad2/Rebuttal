@@ -47,7 +47,7 @@ For example, about applications:  Intelligent wireless monitoring camera, unmann
 
 3.	What's the applications of a system like Figure 2? Can you provide some concrete and critical examples
 **Answer:** A concrete example(surveillance camera) ：  
-![block]（https://github.com/sosaaaad2/Rebuttal/blob/master/images/APLVPASYS_BD.jpg）  
+ ![block]（https://github.com/sosaaaad2/Rebuttal/blob/master/images/APLVPASYS_BD.jpg）  
                                 Fig2
 
 ## Reviewer #3:  
