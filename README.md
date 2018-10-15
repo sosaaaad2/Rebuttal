@@ -62,14 +62,14 @@ Significant. Novel. Technically sound. Sufficient. Satisfactory.
 2.	In the second paragraph of Model Implementation, please introduce the function of YOLOv2 briefly.  
 **Answer:** Thank you for your suggestion, we will revise the paper as suggested in further revision.
 
-3.	The cost of CCN is not reduced compared with the original CNN model, which means the running time is limited by the current CNN model.
+3.	The cost of CCN is not reduced compared with the original CNN model, which means the running time is limited by the current CNN model.  
 **Answer:** Yes, you are perfectly right. CCN is an improvement of CNN, it is limited by the speed of original CNN model. To further improve throughput, we can easily apply our strategy in a more efficient CNN model. For example, a small model,TINY-YOLO. or a quantization model. This is also an important aspect for our future work.   
 
 4.	The dataset of BSD100 is small and it has no test set. The authors are suggested to provide explanations or choose other standard datasets.  
 **Answer:** Because existing data-driven compress sensing methods, e.g, Numax, Adagio, cost high computation, those models can’t be trained in complete COCO and VOC dataset. To compare the performance with data-driven methods, we specially use a small dataset(BSD100) to compare the PSNR and training speed of image compressing.  
 
 5.	The following are minor ones for further revisions:  
-Occasionally, I noticed several typos, please correct them before the next submission. 
+Occasionally, I noticed several typos, please correct them before the next submission.   
 a) For example, in equation 4, the position of vector 0 and scalar 0 are strange. 
 b) Spaces are required before the second and the third paragraph in Background and the third paragraph in Incoherence Regularization.
 c) In table 4, the training set can be mentioned once, that will make the table more concise.
