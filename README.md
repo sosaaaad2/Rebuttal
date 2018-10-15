@@ -5,7 +5,7 @@ We would like to thank you for your valuable comments. We will revise the submit
 OVERALL SCORE 7 Accept
 ### [Questions]: 
 1.	More mathematical explanation is needed for the good performance on Image Compression.  
-**Answer:** Thank you. We will extend the part of mathematical explanation later. It is indicated in the paper of Numax and Adagio that, given a training set and a determined compression rate, the data driven approach is more robust than the traditional random approach, as long as that the test image has the same noise as the training image. For the application of stationary wireless surveillance cameras, this assumption is usually satisfied; therefore, the data driven approach like the CCN may outperform the traditional methods.
+**Answer:** Thank you. We will extend the part of mathematical explanation later. It is indicated in the paper of Numax and Adagio that, given a training set and a determined compression rate, the data driven approach is more robust than the traditional random approach, as long as that the test image has the same noise as the training image. For the application of *stationary* wireless surveillance cameras, this assumption is usually satisfied; therefore, the data driven approach like the CCN may outperform the traditional methods.
 
 2.	Why the CCN can beat all the baselines?  
 **Answer:** From an experimental perspective, the traditional CS approach uses random embedding matrix, which are generally less incoherent (coherence measurement=1.96e+04) with the basis matrix than the optimized matrix calculated by the CCN (coherence measurement=2.5e+03). As a result, the CCN outperforms the traditional CS in terms of PSNR given the same compression rate (Figure 6).
@@ -26,7 +26,7 @@ OVERALL SCORE 5 Marginally below threshold
         <td ><center><img src="https://github.com/sosaaaad2/Rebuttal/blob/master/images/timg.jpg?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzODI2NTY0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"  >
     </tr>
 </table>
-                                     <center><font color=grey>**Rebuttal Fig. 1**</font></center>
+                                     <p align="center">Rebuttal Fig. 1</p>
 
 2.	The method used in this paper is not novel. Basically it follows the multi-task learning and transfer learning settings. The major novel of this paper lies in the problem, however, I am still skeptical about the importance of this problem.  
 **Answer:** About the methodology innovation, in fact, transfer learning or multi-task learning are not the main contributions of this article. The novel contribution and benefits of the CCN are as follows:
