@@ -38,8 +38,6 @@ For example, about applications:  Intelligent wireless monitoring camera, unmann
     </tr>
 </table>
 
-
-![camera](https://github.com/sosaaaad2/Rebuttal/blob/master/images/wireless_camera.jpg)![unmanned](https://github.com/sosaaaad2/Rebuttal/blob/master/images/timg.jpg)  
                                      Fig1
 
 2.	Beyond, the method used in this paper is not novel. Basically it follows the multi-task learning and transfer learning settings. The major novel of this paper lies in the problem, however, I am still skeptical about the importance of this problem. I have not found any convincing applications in the abstract and introduction.  
