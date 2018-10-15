@@ -46,7 +46,7 @@ For example, about applications:  Intelligent wireless monitoring camera, unmann
      -	First propose a method that use convolution operation to realize Linear mapping and image compression, improve the efficiency.  
 
 3.	What's the applications of a system like Figure 2? Can you provide some concrete and critical examples
-**Answer:** A concrete example(surveillance camera) ：
+**Answer:** A concrete example(surveillance camera) ：  
 ![block]（https://github.com/sosaaaad2/Rebuttal/blob/master/images/APLVPASYS_BD.jpg）  
                                 Fig2
 
