@@ -74,5 +74,5 @@ a) For example, in equation 4, the position of vector 0 and scalar 0 are strange
 b) Spaces are required before the second and the third paragraph in Background and the third paragraph in Incoherence Regularization.
 c) In table 4, the training set can be mentioned once, that will make the table more concise.
 d) It is not professional to provide a code link in the abstract, and is better to put it as a URL reference or a footnote.
-e) In equation (3), the dimensional of left value is N while the dimension of y is M. Please revise accordingly.
+e) In equation (3), the dimensional of left value is N while the dimension of y is M. Please revise accordingly.  
 **Answer:** Thank you for your suggestion, we will revise the paper as suggested in further revision.
