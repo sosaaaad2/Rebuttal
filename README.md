@@ -7,18 +7,13 @@ I'm overall positive towards the paper. Likely to be of interest to a large prop
 Novel. Technically sound. Sufficient. Good. 
 ### [Questions]: 
 1. More mathematical explanation is needed for the good performance on Image Compression.   
-**Answer:**
-   - In stationary scenes like surveillance camera, because images have a more relative distribution, it is convincing that 
-   data-driven compress matrix is better than traditional constant matrix. latest data-driven researches like Numax and Adagio, they have shown a better result, and we realize a more effective way.  
-   - Compress sensing (Cand` es, Romberg, and Tao 2006) has proven if satisfy the incoherence condition, one can reconstruct 
-   the original image from sparse signal. We defined the coherence of Φ,Ψ, and use our regularization to train the compress matrix. Experiment shows our result are less coherent.   
-     CCN | GAUSS 
-      - | :-: |
-     3.1e+3  | 1.17e+4
+**Answer:** Thank you. We will extend the part of mathematical explanation in the revised paper. Generally, the theory of compressive sensing requires the data embedding process to satisfy the isometric property. It is indicated in the paper of Numax and Adagio that, given a training set and a determined compression rate, the data driven approach is more robust than the traditional random approach, as long as that the test image has the same noise as the training image. For the application of stationary wireless surveillance cameras, this assumption is usually satisfied; therefore, the data driven approach like the CCN may outperform the traditional methods in terms of reconstruction PSNR. 
 
 
 2. Why the CCN can beat all the baselines?  
-**Answer:**We calculate the defined coherence of baselines and our method, our approach is remarkably better than baselines. 
+**Answer:** From an experimental perspective, the traditional CS approach uses random embedding matrix, which are generally less incoherent with the basis matrix than the optimized matrix calculated than the CCN. For example, the coherence measurement of the CCN embedding matrix is XX% smaller than the random Gaussian matrix on average over the XX data set (Fig. X). As a result, the CCN outperforms the traditional approach when compression ratio is relatively small (e.g. <0.X).  
+On the other hand, the CCN also outperform the data driven approach of the Numax and Adagio, 
+ 
      CCN | GAUSS 
       - | :-: |
      3.1e+3  | 1.17e+4
@@ -36,6 +31,14 @@ Moderately significant. Novel. Technically sound. Sufficient. Good.
 1.	Using multi-task learning (object detection and image compression) or transfer learning (from object detection features to image compression) makes sense and is technically sound. However, my major concern is that the user cases are rare, and this paper does not list related applications to this problem. Without examples, the problem itself seems not critical and is very limited.  
 **Answer:** Yes, you are right. Given space limitations, this article can’t fully introduce application scenarios and the importance of our method for applications.  Our method is to solve a realistic problem in image wireless transmission.  
 For example, about applications:  Intelligent wireless monitoring camera, unmanned aerial vehicle and other embedded wireless devices all need to face wireless transmission consumption challenge. We will supply it in our new paper.  
+<table>
+    <tr>
+        <td ><center><img src="https://github.com/sosaaaad2/Rebuttal/blob/master/images/wireless_camera.jpg?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzODI2NTY0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" >
+        <td ><center><img src="https://github.com/sosaaaad2/Rebuttal/blob/master/images/timg.jpg?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzODI2NTY0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"  >
+    </tr>
+</table>
+
+
 ![camera](https://github.com/sosaaaad2/Rebuttal/blob/master/images/wireless_camera.jpg)![unmanned](https://github.com/sosaaaad2/Rebuttal/blob/master/images/timg.jpg)  
                                      Fig1
 
