@@ -36,7 +36,8 @@ Moderately significant. Novel. Technically sound. Sufficient. Good.
 1.	Using multi-task learning (object detection and image compression) or transfer learning (from object detection features to image compression) makes sense and is technically sound. However, my major concern is that the user cases are rare, and this paper does not list related applications to this problem. Without examples, the problem itself seems not critical and is very limited.  
 **Answer:** Yes, you are right. Given space limitations, this article can’t fully introduce application scenarios and the importance of our method for applications.  Our method is to solve a realistic problem in image wireless transmission.  
 For example, about applications:  Intelligent wireless monitoring camera, unmanned aerial vehicle and other embedded wireless devices all need to face wireless transmission consumption challenge. We will supply it in our new paper.  
-![camera](https://github.com/sosaaaad2/Rebuttal/blob/master/images/wireless_camera.jpg) ![unmanned](https://github.com/sosaaaad2/Rebuttal/blob/master/images/timg.jpg)
+![camera](https://github.com/sosaaaad2/Rebuttal/blob/master/images/wireless_camera.jpg)![unmanned](https://github.com/sosaaaad2/Rebuttal/blob/master/images/timg.jpg)  
+                                     Fig1
 
 2.	Beyond, the method used in this paper is not novel. Basically it follows the multi-task learning and transfer learning settings. The major novel of this paper lies in the problem, however, I am still skeptical about the importance of this problem. I have not found any convincing applications in the abstract and introduction.  
 **Answer:** About the methodology innovation, transfer learning is not main scope of this article. The main contribution of this article is:  
@@ -46,6 +47,8 @@ For example, about applications:  Intelligent wireless monitoring camera, unmann
 
 3.	What's the applications of a system like Figure 2? Can you provide some concrete and critical examples
 **Answer:** A concrete example(surveillance camera) ：
+![block]（https://github.com/sosaaaad2/Rebuttal/blob/master/images/APLVPASYS_BD.jpg）  
+                                Fig2
 
 ## Reviewer #3:  
 OVERALL SCORE 7 Accept  
