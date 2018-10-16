@@ -1,5 +1,4 @@
 # Answers to Comments
-Dear reviewers, 
 We would like to thank you for your valuable comments. We will revise the submitted paper according to these comments. In this document, we summarize the answers to the comments and attempt to clarify the points addressed by each reviewer. 
 ## Reviewer #1:
 OVERALL SCORE 7 Accept
